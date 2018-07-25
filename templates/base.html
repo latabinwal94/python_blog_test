@@ -1,6 +1,8 @@
+{% load staticfiles %}
 <html>
 <head>
     <title>{% block title %}The Great Django Blog{% endblock %}</title>
+    <link rel="stylesheet" href={% static 'css/style.css' %}>
 </head>
 <body>
 
@@ -12,6 +14,7 @@
             <a href="#">Contact</a>
             <a href="#">Career</a>
         </nav>
+        <img src="{% static 'img/download.jpg' %}">
     </div>
 </div>
 
