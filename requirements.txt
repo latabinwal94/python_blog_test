@@ -1,2 +1,12 @@
+boto3==1.7.63
+botocore==1.10.63
 Django==2.0.7
+django-storages==1.6.6
+docutils==0.14
+jmespath==0.9.3
+pkg-resources==0.0.0
+python-dateutil==2.7.3
+python-decouple==3.1
 pytz==2018.5
+s3transfer==0.1.13
+six==1.11.0
